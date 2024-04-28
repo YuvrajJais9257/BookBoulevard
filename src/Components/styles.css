@@ -1,0 +1,106 @@
+.book-cover-image{
+    width: 200px;
+    height: 200px;
+}
+#library-container{
+    display: flex;
+    margin-top: 3%;
+}
+.book-item{
+    margin-left: 7px;
+    margin-right: 8px;
+}
+#add-book-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#add-book-button{
+    width: 100px;
+    height: 100px;
+    transform: translateX(10px);
+}
+#add-book-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 33px;
+}
+.add-book-label{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+#book-save{
+    margin-top: 15px;
+    border-radius: 5px;
+}
+#add-book-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 223px;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.modal {
+    position: fixed;
+    z-index: 1;
+    margin: 3% auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: max-content;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+.modal-content{
+    background-color: #fefefe;
+    margin: 5% auto;
+    min-height: max-content;
+    border: 1px solid #888;
+    width: 100%;
+}
+.book-inner-content{
+    margin: 3%;
+}
+#modal-close-icon{
+    width: 30px;
+    height: 24px;
+}
+.close{
+    position: absolute;
+    color:#aaa;
+    border-radius: 50%;
+    right: 1%;
+    width: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+.book-preview-content{
+    margin: 3%;
+}
+#prev-page-icon, #next-page-icon{
+    width: 30px;
+    height: 24px;
+
+}
+.page-control-btn{
+    border-radius: 50%;
+    margin:15px;
+}
+.pagination-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
