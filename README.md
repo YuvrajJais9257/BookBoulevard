@@ -61,7 +61,7 @@ The app should now be running on [http://localhost:3000](http://localhost:3000).
 
 ## Demo
 
-You can try out the Book Boulevard app live [here](https://your-demo-site-url.com).
+You can try out the Book Boulevard app live [here](https://main--bookboulevard-princejais9257.netlify.app/).
 
 ## Contributing
 
